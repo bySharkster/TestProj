@@ -16,6 +16,8 @@ namespace TestProj.Models
         public static string LoginUrl = "https://test.com/api/Auth.Login";
 
         public static object NoInternetText = "No internet, please reconnect";
+
+        public static string SettingsScreenTitle = "Settings";
     }
 }
 

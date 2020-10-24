@@ -37,6 +37,13 @@ namespace TestProj.Views
                 var result = new Token(); //dummy login token
                 await DisplayAlert("Login", "Login Success", "Ok");
 
+                if (App.SettingsDatabase.GetSettings() == null)
+                {
+                    Settings settings = new Models.Settings();
+                    App.SettingsDatabase.SaveSettings(settings);
+
+                }
+
                 if (result != null) //if(result.Access_Token != null)
                 {
                     ActivitySpinner.IsVisible = false;

@@ -27,7 +27,7 @@
             </StackLayout>
 
             <StackLayout x:Name="BottomStack" VerticalOptions="EndAndExpand">
-                <Button x:Name="Logout"/>
+                <Button x:Name="Logout" Text="Logout"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
