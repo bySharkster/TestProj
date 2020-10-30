@@ -17,11 +17,6 @@ namespace TestProj.Views
 
         void Init()
         {
-            BackgroundColor = Constants.BackgroundColor;
-            Lbl_Username.TextColor = Constants.MainTextColor;
-            Lbl_Password.TextColor = Constants.MainTextColor;
-            ActivitySpinner.IsVisible = false;
-            LoginIcon.HeightRequest = Constants.LoginIconHeight;
             App.StartCheckIfInternet(Lbl_NoInternet, this);
             Entry_Username.Completed += (s, e) => Entry_Password.Focus();
             Entry_Password.Completed += (s, e) => SignInProcedure(s, e);

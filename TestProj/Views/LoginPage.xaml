@@ -1,15 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TestProj.Views.LoginPage">
-    
+             xmlns:toolkit="clr-namespace:TestProj.Toolkit"
+             xmlns:local="clr-namespace:TestProj.Models"
+             x:Class="TestProj.Views.LoginPage"
+             BackgroundColor="{Binding Source={x:Reference Swt_Mode}, Path=IsToggled, Converter={StaticResource BoolToColor}}">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <toolkit:BoolToColorConverter x:Key="BoolToColor" />
+            <Style x:Key="LabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="{x:Static local:Constants.MainTextColor}"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     
     <ContentPage.Content>
         <StackLayout x:Name="Master_Layout">
             
             <StackLayout x:Name="LogoStack" VerticalOptions="FillAndExpand">
                 <Label x:Name="Lbl_NoInternet" HorizontalTextAlignment="Center" TextColor="White" BackgroundColor="Blue"/>
-                <Image x:Name="LoginIcon" Source="LoginIcon.jpg" Margin="0,80,0,0"/>
+                <Image x:Name="LoginIcon" Source="LoginIcon.jpg" Margin="0,80,0,0" HeightRequest="{x:Static local:Constants.LoginIconHeight}"/>
             </StackLayout>
                      
                      
@@ -22,15 +32,19 @@
                     </OnIdiom>
                 </StackLayout.Padding>
 
-            <ActivityIndicator x:Name="ActivitySpinner" Color="ForestGreen" IsRunning="true"/>
+            <ActivityIndicator x:Name="ActivitySpinner" Color="ForestGreen" IsRunning="true" IsVisible="False"/>
 
             <Label x:Name="Lbl_Username" Text="Username" />
             <Entry x:Name="Entry_Username" Placeholder="Username" />
             <Label x:Name="Lbl_Password" Text="Password" />
             <Entry x:Name="Entry_Password" Placeholder="Password" />
             <Button x:Name="Btn_SignIn" Text="Sign In" Clicked="SignInProcedure"/>
-        </StackLayout>
-            
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label x:Name="Lbl_Mode" Text="Dark Mode" />
+                <Switch x:Name="Swt_Mode" IsToggled="False" />
+            </StackLayout>
             
         </StackLayout>
     </ContentPage.Content>

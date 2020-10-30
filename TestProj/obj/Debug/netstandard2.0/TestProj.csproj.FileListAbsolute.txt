@@ -15,3 +15,23 @@ C:\Users\Ferna\Documents\Universidad\4Y 1S\Ingenieria de Software\repos\TestProj
 C:\Users\Ferna\Documents\Universidad\4Y 1S\Ingenieria de Software\repos\TestProj\TestProj\obj\Debug\netstandard2.0\ref\TestProj.dll
 C:\Users\Ferna\Documents\Universidad\4Y 1S\Ingenieria de Software\repos\TestProj\TestProj\obj\Debug\netstandard2.0\TestProj.pdb
 C:\Users\Ferna\Documents\Universidad\4Y 1S\Ingenieria de Software\repos\TestProj\TestProj\obj\Debug\netstandard2.0\TestProj.csprojAssemblyReference.cache
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\bin\Debug\netstandard2.0\TestProj.deps.json
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\bin\Debug\netstandard2.0\TestProj.dll
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\bin\Debug\netstandard2.0\ref\TestProj.dll
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\bin\Debug\netstandard2.0\TestProj.pdb
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\TestProj.csprojAssemblyReference.cache
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\Views\DetailViews\InfoScreen.xaml.g.cs
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\Views\DetailViews\InfoScreen2.xaml.g.cs
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\Views\Menu\MasterDetail.xaml.g.cs
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\Views\Menu\MasterPage.xaml.g.cs
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\TestProj.AssemblyInfoInputs.cache
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\TestProj.AssemblyInfo.cs
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\TestProj.csproj.CoreCompileInputs.cache
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\TestProj.sourcelink.json
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\TestProj.dll
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\ref\TestProj.dll
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\TestProj.pdb

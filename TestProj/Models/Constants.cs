@@ -6,7 +6,8 @@ namespace TestProj.Models
     {
         public static bool IsDev = true;
 
-        public static Color BackgroundColor = Color.FromArgb(57, 234, 184);
+        public static Color LightModeBackgroundColor = Color.FromArgb(57, 234, 184);
+        public static Color DarkModeBackgroundColor = Color.FromArgb(30, 30, 30);
         public static Color MainTextColor = Color.White;
 
         public static int LoginIconHeight = 120;
