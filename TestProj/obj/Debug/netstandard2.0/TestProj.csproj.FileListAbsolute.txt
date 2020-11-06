@@ -35,3 +35,6 @@ C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\XamlC.sta
 C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\TestProj.dll
 C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\ref\TestProj.dll
 C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\TestProj.pdb
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\Views\DetailViews\SelectFilesToShare.xaml.g.cs
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\Views\Content\NewParameter.xaml.g.cs
+C:\Users\Ramon\Source\Repos\TestProj\TestProj\obj\Debug\netstandard2.0\Views\Content\NewForm.xaml.g.cs
