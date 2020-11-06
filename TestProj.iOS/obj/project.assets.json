@@ -1511,24 +1511,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ramon\\.nuget\\packages\\": {},
+    "C:\\Users\\Ferna\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ramon\\Source\\Repos\\TestProj\\TestProj.iOS\\TestProj.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Ferna\\Documents\\Universidad\\4Y 1S\\Ingenieria de Software\\repos\\TestProj\\TestProj.iOS\\TestProj.iOS.csproj",
       "projectName": "TestProj.iOS",
-      "projectPath": "C:\\Users\\Ramon\\Source\\Repos\\TestProj\\TestProj.iOS\\TestProj.iOS.csproj",
-      "packagesPath": "C:\\Users\\Ramon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ramon\\Source\\Repos\\TestProj\\TestProj.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Ferna\\Documents\\Universidad\\4Y 1S\\Ingenieria de Software\\repos\\TestProj\\TestProj.iOS\\TestProj.iOS.csproj",
+      "packagesPath": "C:\\Users\\Ferna\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ferna\\Documents\\Universidad\\4Y 1S\\Ingenieria de Software\\repos\\TestProj\\TestProj.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ramon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ferna\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1542,8 +1542,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Ramon\\Source\\Repos\\TestProj\\TestProj\\TestProj.csproj": {
-              "projectPath": "C:\\Users\\Ramon\\Source\\Repos\\TestProj\\TestProj\\TestProj.csproj"
+            "C:\\Users\\Ferna\\Documents\\Universidad\\4Y 1S\\Ingenieria de Software\\repos\\TestProj\\TestProj\\TestProj.csproj": {
+              "projectPath": "C:\\Users\\Ferna\\Documents\\Universidad\\4Y 1S\\Ingenieria de Software\\repos\\TestProj\\TestProj\\TestProj.csproj"
             }
           }
         }
