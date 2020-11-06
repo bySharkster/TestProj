@@ -5,25 +5,20 @@
 
     
    <StackLayout x:Name="MainLayout">
-        <RelativeLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-            <StackLayout x:Name="SubLayout"
-                             Orientation="Vertical"
-                             VerticalOptions="FillAndExpand"
-                             RelativeLayout.XConstraint="{ConstraintExpression Type=Constant, Constant=0}"
-                             RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=0}">
+        <Label Text="Files"  HorizontalOptions="Start" FontSize="30"/>
+        <Entry Placeholder="Enter folder name" x:Name="folderNameEntry"/>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Add Folder" Clicked="Add_Folder_Button_Clicked"/>
+            <Button Text="Refresh List" Clicked="Refresh_List_Button_Clicked"/>
+        </StackLayout>
+        <ListView x:Name="listView"> <!--ListView displays folders created in-app by the user-->
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
 
-                <Label Text="Info Screen!" VerticalOptions="Center"  HorizontalOptions="Center" />
-
-            </StackLayout>
-
-            <ActivityIndicator IsRunning="True" Color="Red" x:Name="ActivitySpinner"
-                               VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
-                               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.45}"
-                               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.33}" />
-
-
-        </RelativeLayout>
-
-   </StackLayout>
+    </StackLayout>
 
 </ContentPage>

@@ -20,9 +20,10 @@ namespace TestProj.Views.Menu
         void SetItems()
         {
             items = new List<MasterMenuItem>
-            {
-                new MasterMenuItem("InfoScreen", "LoginIcon.jpg", Color.FloralWhite, typeof(InfoScreen)),
-                new MasterMenuItem("InfoScreen2", "LoginIcon.jpg", Color.FloralWhite, typeof(InfoScreen2))
+            {//Added new item and changed previous items names
+                new MasterMenuItem("Files", "LoginIcon.jpg", Color.FloralWhite, typeof(InfoScreen)),
+                new MasterMenuItem("New", "LoginIcon.jpg", Color.FloralWhite, typeof(InfoScreen2)),
+                new MasterMenuItem("Share", "LoginIcon.jpg", Color.FloralWhite, typeof(SelectFilesToShare))
             };
             ListView.ItemsSource = items;
         }

@@ -40,8 +40,8 @@ namespace TestProj.Views
                     //await Navigation.PushAsync(new Dashboard());
                     if (Device.RuntimePlatform == Device.Android)
                     {
-                        Application.Current.MainPage = new NavigationPage(new MasterDetail());
-
+                        Application.Current.MainPage = new MasterDetail();
+                        // Navigation(new MasterDetail) caused navbar duplication bug.
 
                     }
                     else if (Device.RuntimePlatform == Device.iOS)

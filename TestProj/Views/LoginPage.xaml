@@ -7,7 +7,7 @@
              BackgroundColor="{Binding Source={x:Reference Swt_Mode}, Path=IsToggled, Converter={StaticResource BoolToColor}}">
     <ContentPage.Resources>
         <ResourceDictionary>
-            <toolkit:BoolToColorConverter x:Key="BoolToColor" />
+            <toolkit:BoolToColorConverter x:Key="BoolToColor" /> <!--Toolkit for implementing dark mode-->
             <Style x:Key="LabelStyle" TargetType="Label">
                 <Setter Property="TextColor" Value="{x:Static local:Constants.MainTextColor}"/>
             </Style>
@@ -43,9 +43,8 @@
 
             <StackLayout Orientation="Horizontal">
                 <Label x:Name="Lbl_Mode" Text="Dark Mode" />
-                <Switch x:Name="Swt_Mode" IsToggled="False" />
+                <Switch x:Name="Swt_Mode" IsToggled="False" /> <!--Dark mode switch-->
             </StackLayout>
-            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

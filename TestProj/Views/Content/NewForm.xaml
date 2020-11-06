@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestProj.Views.Content.NewForm">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Form template options"
+                HorizontalOptions="Start" FontSize="30"/>
+            <Button Text="Use saved template" x:Name="Use_Saved_Template_Button"
+                    Clicked="Use_Saved_Template_Button_Clicked"/>
+            <Button Text="Create new template" x:Name="Create_New_Template_Button"
+                    Clicked="Create_New_Template_Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

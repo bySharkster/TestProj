@@ -10,7 +10,7 @@ namespace TestProj.Models
         public static Color DarkModeBackgroundColor = Color.FromArgb(30, 30, 30);
         public static Color MainTextColor = Color.White;
 
-        public static int LoginIconHeight = 120;
+        public static double LoginIconHeight = 120;
 
 
         //------Login------------
