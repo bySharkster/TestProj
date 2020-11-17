@@ -1,18 +1,13 @@
-﻿using Newtonsoft.Json.Converters;
-using SQLite;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Transactions;
+﻿using SQLite;
 using TestProj.Models;
 using Xamarin.Forms;
 
 namespace TestProj.Data
 {
-   public class SettingsDatabaseController
+    public class SettingsDatabaseController
     {
         static object locker = new object();
-        
+
         SQLiteConnection database;
 
         public SettingsDatabaseController()
@@ -24,9 +19,9 @@ namespace TestProj.Data
 
         public Settings GetSettings()
         {
-            lock(locker)
+            lock (locker)
             {
-                if(database.Table<Settings>().Count() == 0)
+                if (database.Table<Settings>().Count() == 0)
                 {
                     return null;
                 }
@@ -36,11 +31,11 @@ namespace TestProj.Data
                 }
             }
         }
-        public int SaveSettings (Settings settings)
+        public int SaveSettings(Settings settings)
         {
             lock (locker)
             {
-                if(settings.Id != 0)
+                if (settings.Id != 0)
                 {
                     database.Update(settings);
                     return settings.Id;

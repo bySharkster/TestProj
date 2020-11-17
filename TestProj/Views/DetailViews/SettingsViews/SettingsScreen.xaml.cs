@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TestProj.Models;
+﻿using TestProj.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace TestProj.Views.DetailViews.SettingsViews 
+namespace TestProj.Views.DetailViews.SettingsViews
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SettingsScreen : ContentPage
