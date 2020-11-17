@@ -12,6 +12,9 @@ namespace TestProj
     {
         static TokenDatabaseController tokenDatabase; //user password controller
         static UserDatabaseController userDatabase;   //user controller
+        static SettingsDatabaseController settingsDatabase; //settings dabase controller
+
+
         static RestService restService;               //
         private static Label labelScreen;
         private static bool hasInternet;              //Has Internet or Not
@@ -58,6 +61,18 @@ namespace TestProj
                     tokenDatabase = new TokenDatabaseController();
                 }
                 return tokenDatabase;
+            }
+        }
+
+        public static SettingsDatabaseController SettingsDatabase
+        {
+            get
+            {
+                if (settingsDatabase == null)
+                {
+                    settingsDatabase = new SettingsDatabaseController();
+                }
+                return settingsDatabase;
             }
         }
         public static RestService RestService

@@ -15,7 +15,7 @@ namespace TestProj.Views.DetailViews
 
         void Init()
         {
-            ActivitySpinner.IsVisible = true;
+            ActivitySpinner.IsVisible = false;
         }
     }
 }
