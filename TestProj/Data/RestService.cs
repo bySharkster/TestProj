@@ -19,7 +19,7 @@ namespace TestProj.Data
                 MaxResponseContentBufferSize = 256000
             };
             client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("applications/x-www-form-urlencoded "));
-            
+
         }
 
         public async Task<Token> Login(User user)
